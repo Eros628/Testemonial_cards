@@ -131,3 +131,39 @@ svg{
     height: 20px;
     width: 20px;
 }
+
+.row3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.row3-container > p{
+    text-align: center;
+}
+
+.row3-container > h4{
+    margin: 0px 0px 20px 0px ;
+}
+
+.carousel-profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-small{
+    height: 60px;
+    opacity: 0.5;
+}
